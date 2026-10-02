@@ -1,0 +1,4 @@
+2026-10-02T01:42:09Z; Linux; Node v24.19.0
+Payload source checkpoint f614c2e. Package hashes do not constitute native-host acceptance.
+claude: 20 hashed payload entries + installation manifest; SHA-256 70980857ff837477d72b8a0f5fca37cfef5eca44aab661c375e5da400f8b852e
+codex: 20 hashed payload entries + installation manifest; SHA-256 3f31e8ad9b8554f72badfd5094c716bea6538c929c1e1ec2de8bb3bab7ae7331

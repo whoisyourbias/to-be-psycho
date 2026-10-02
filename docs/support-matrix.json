@@ -1,0 +1,74 @@
+[
+  {
+    "host": "claude",
+    "hostVersion": null,
+    "model": null,
+    "os": "Windows",
+    "osVersion": null,
+    "executionMode": "native",
+    "nodeVersion": null,
+    "permissionConfig": null,
+    "packageSha256": "70980857ff837477d72b8a0f5fca37cfef5eca44aab661c375e5da400f8b852e",
+    "checkedAt": "2026-10-02T01:42:09.000Z",
+    "status": "not-tested",
+    "evidencePaths": [],
+    "limitations": [
+      "No authorized native target OS/host session available in this Linux executor",
+      "Skill discovery, permission enforcement, and end-to-end learner flow have not been accepted on this combination"
+    ]
+  },
+  {
+    "host": "claude",
+    "hostVersion": null,
+    "model": null,
+    "os": "macOS",
+    "osVersion": null,
+    "executionMode": "native",
+    "nodeVersion": null,
+    "permissionConfig": null,
+    "packageSha256": "70980857ff837477d72b8a0f5fca37cfef5eca44aab661c375e5da400f8b852e",
+    "checkedAt": "2026-10-02T01:42:09.000Z",
+    "status": "not-tested",
+    "evidencePaths": [],
+    "limitations": [
+      "No authorized native target OS/host session available in this Linux executor",
+      "Skill discovery, permission enforcement, and end-to-end learner flow have not been accepted on this combination"
+    ]
+  },
+  {
+    "host": "codex",
+    "hostVersion": null,
+    "model": null,
+    "os": "Windows",
+    "osVersion": null,
+    "executionMode": "native",
+    "nodeVersion": null,
+    "permissionConfig": null,
+    "packageSha256": "3f31e8ad9b8554f72badfd5094c716bea6538c929c1e1ec2de8bb3bab7ae7331",
+    "checkedAt": "2026-10-02T01:42:09.000Z",
+    "status": "not-tested",
+    "evidencePaths": [],
+    "limitations": [
+      "No authorized native target OS/host session available in this Linux executor",
+      "Skill discovery, permission enforcement, and end-to-end learner flow have not been accepted on this combination"
+    ]
+  },
+  {
+    "host": "codex",
+    "hostVersion": null,
+    "model": null,
+    "os": "macOS",
+    "osVersion": null,
+    "executionMode": "native",
+    "nodeVersion": null,
+    "permissionConfig": null,
+    "packageSha256": "3f31e8ad9b8554f72badfd5094c716bea6538c929c1e1ec2de8bb3bab7ae7331",
+    "checkedAt": "2026-10-02T01:42:09.000Z",
+    "status": "not-tested",
+    "evidencePaths": [],
+    "limitations": [
+      "No authorized native target OS/host session available in this Linux executor",
+      "Skill discovery, permission enforcement, and end-to-end learner flow have not been accepted on this combination"
+    ]
+  }
+]

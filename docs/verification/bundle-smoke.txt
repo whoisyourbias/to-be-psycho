@@ -1,0 +1,4 @@
+2026-10-02 UTC; Linux 6.18.44; Node v24.19.0
+Source checkpoint fd59082; this is a Node helper/bundle test, not host discovery or permissions acceptance.
+claude: 20 managed files; manifest SHA-256 43a8c6e6489c75dc8d297e542ae69f1b6f742beedadca8d57b0714b56aa0798e; bundled helper import/state roundtrip/snapshot smoke PASS
+codex: 20 managed files; manifest SHA-256 47a70552ae14e503fc30bc6d7549755f1bc245390ae56c6c64f0be5e6caddfef; bundled helper import/state roundtrip/snapshot smoke PASS

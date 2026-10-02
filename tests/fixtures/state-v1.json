@@ -1,0 +1,10 @@
+{
+ "schemaVersion":1,"sessionId":"session-1","project":{"id":"quantity-demo","rootIdentity":"/projects/quantity"},"revision":0,"packageVersion":"0.1.0","profileVersions":{"web":"1"},
+ "scope":{"goal":"Keep quantities between zero and ten","confirmed":true,"criteria":[{"id":"Q1","description":"Quantity stays in 0..10"}],"rationale":"Practice boundary reasoning"},
+ "stage":{"id":"boundaries","status":"active","openQuestions":["lower bound"],"nextAction":"Learner traces a negative delta"},
+ "attempts":[{"id":"attempt-1","stageId":"boundaries","observation":"A negative quantity appeared","at":"2026-10-02T00:00:00.000Z"}],
+ "hints":[{"id":"hint-1","stageId":"boundaries","attemptId":"attempt-1","level":1,"disclosed":"Trace a negative delta","at":"2026-10-02T00:01:00.000Z"}],
+ "snapshots":[{"id":"snapshot-1","environmentId":"environment-1","coverage":"unknown","files":[],"capturedAt":"2026-10-02T00:02:00.000Z"}],
+ "evidence":[{"id":"evidence-1","snapshotId":"snapshot-1","environmentId":"environment-1","command":"npm test","executedAt":null,"submittedAt":"2026-10-02T00:03:00.000Z","actor":"learner","source":"learner-submitted","result":"pass","summary":"Learner reports two checks passed; coverage unknown"}],
+ "reviews":[]
+}

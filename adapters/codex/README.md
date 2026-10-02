@@ -1,0 +1,9 @@
+# Codex adapter
+
+Documentation checked 2026-10-02. The local Linux executable reports codex-cli 0.159.2, but no session-level loading, permission or model execution acceptance was performed. Windows/macOS host versions remain untested.
+
+Install `.agents/skills/learning-with-to-be-psycho/SKILL.md` and `.codex/agents/implementation-reviewer.toml` beneath the selected project/home root. Invoke `$learning-with-to-be-psycho` or ask for the skill. The [skills documentation](https://learn.chatgpt.com/docs/build-skills) and [custom agent documentation](https://learn.chatgpt.com/docs/agent-configuration/subagents) describe discovery and agent configuration. Required agent fields are name, description and developer_instructions; this definition also requests read-only sandbox and no approval escalation. No model is pinned; capture the actual chosen model during acceptance.
+
+IMPORTANT: current docs say live parent permission overrides can be reapplied at child spawn. A TOML read-only setting alone does not prove actual restrictions. Verify the spawned session's effective permissions, including shell-mediated writes and inherited MCP tools, in a disposable fixture. Do not run a purported read-only reviewer with broad mutation capabilities. If restriction cannot be verified, keep the main guide read-only, use manual state saving and sequential review (independent=false). An unavailable independent reviewer must not be faked.
+
+`agents/openai.yaml` would be skill display metadata, not an agent security definition; it is unnecessary for this package. The build rewrites the contract path so the agent references the installed skill's core/review-contract.md. No user AGENTS.md, config.toml or existing permissions are changed. [Windows sandbox](https://learn.chatgpt.com/docs/windows/windows-sandbox) and [permissions](https://learn.chatgpt.com/docs/permissions) describe host-specific behavior, not this package's acceptance results.
